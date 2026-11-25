@@ -58,18 +58,3 @@ public class RemoveDuplicates {
     }
 
 
-    public static void main(String[] args) {
-
-        int[] nums = {1, 1, 2, 2, 3};
-
-        int k = removeDuplicates(nums);
-
-        System.out.println("Number of unique elements: " + k);
-
-        System.out.print("Updated array: ");
-
-        for (int i = 0; i < k; i++) {
-            System.out.print(nums[i] + " ");
-        }
-    }
-}
